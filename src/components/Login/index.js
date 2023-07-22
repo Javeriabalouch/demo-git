@@ -30,7 +30,7 @@ function Login({ handleLogin }) {
         formData
       );
       console.log(data);
-      localStorage.setItem("login", data?.access_token);
+      localStorage.setItem("token", data?.access_token);
       navigate("/");
       dispatch(loginSuccess(data));
 
