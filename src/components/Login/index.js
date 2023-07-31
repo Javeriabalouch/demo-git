@@ -37,7 +37,7 @@ function Login({ handleLogin }) {
       // Handle successful login
     } catch (error) {
       // Handle login error
-      console.log(error.message);
+      // will add error handler later
     }
   };
   // const handleSubmit = async (value) => {
